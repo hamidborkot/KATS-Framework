@@ -1,0 +1,6 @@
+Method,S1_Precision_Strike,S2_Gulf_Strike_Mar2026,S3_Cascading_Collapse,Mean,S2_Rescued_High,S2_Total_High,S2_Rank
+KATS-Ensemble,0.7773,0.4868,0.0796,0.4479,868,1783,1
+B5-DecTree,0.7678,0.4700,0.0808,0.4395,838,1783,4
+B4-LogReg,0.7493,0.4745,0.0667,0.4302,846,1783,2
+B1-Criticality,0.7072,0.4543,0.0690,0.4102,810,1783,5
+B3-Composite,0.6932,0.4734,0.0701,0.4122,844,1783,3

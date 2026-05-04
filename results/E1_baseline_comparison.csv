@@ -1,0 +1,9 @@
+Method,Recall_High,Macro_F1,Kappa,Note
+KATS-Ensemble,0.9880,0.9069,0.8772,Primary result
+B5-DecTree,0.9745,0.9195,0.8930,Best ML baseline
+B4-LogReg,0.9525,0.7602,0.6350,ML baseline
+B1-Criticality,0.4867,0.5080,0.2844,Rule-based
+B3-Composite,0.4863,0.5099,0.2873,Rule-based
+B2-RTO,0.4341,0.4744,0.2222,Rule-based
+B7-ConnectivityRank,0.4191,0.4600,0.2196,Rule-based
+B6-DeadlineFirst,0.4189,0.4745,0.2266,Rule-based

@@ -1,0 +1,5 @@
+Metric,Value,Note
+Top_Feature,regulatory_flag,Highest mean absolute SHAP value
+Shap_Stability_Score,0.243,Jaccard overlap of top-5 features across bootstrap samples
+SHAP_Top20_Time_sec,1.70,Well within 30-second operational target
+SHAP_Target_Met,YES,Target: <30 seconds

@@ -1,0 +1,8 @@
+Benchmark,Result,Unit,Target,Status,Note
+Training_N15000,40.49,seconds,feasible,PASS,0.67 minutes
+Inference_N100,149.42,ms,480000,PASS,S3 window = 8 min
+Inference_N500,91.52,ms,480000,PASS,
+Inference_N1000,117.05,ms,480000,PASS,
+Inference_N5000,266.72,ms,480000,PASS,
+Inference_N10000,460.21,ms,480000,PASS,1042x faster than window
+SHAP_Top20,1.70,seconds,30,PASS,17.6x faster than target

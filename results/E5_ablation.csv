@@ -1,0 +1,6 @@
+Ablation,Recall_High,Macro_F1,Kappa,Precision_High,Drop_Recall_pp,Drop_F1_pp,Note
+T5.0 Full KATS-Ensemble,0.9880,0.9356,0.9104,0.9498,0.0000,0.0000,Reference
+T5.2 No Calibrated NB,0.9879,0.9354,0.9100,0.9496,-0.0001,-0.0002,Minimal impact
+T5.1 No Asymmetric Loss (a=1),0.9843,0.9399,0.9191,0.9606,-0.0037,+0.0043,Tradeoff visible
+T5.3 Single Model (RF only),0.9836,0.9315,0.9056,0.9529,-0.0044,-0.0041,Ensemble needed
+T5.5 No Dependency Features,0.9789,0.7486,0.6071,0.7879,-0.0091,-0.1870,CRITICAL: -18.7pp F1
