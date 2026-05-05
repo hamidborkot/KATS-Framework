@@ -1,0 +1,16 @@
+Method,Scenario,Survivability,Rescued_High,Total_High,Pct_High_Migratable,Services_Migrated,N_Lanes,Avg_Lane_Load_pct
+KATS-Ensemble,S2: Coordinated Gulf Strike (Mar 2026),0.6604,3368,5100,99.41,3681,1000,94.6
+B4-LogReg,S2: Coordinated Gulf Strike (Mar 2026),0.6563,3347,5100,99.41,3629,1000,94.5
+B5-DecTree,S2: Coordinated Gulf Strike (Mar 2026),0.6541,3336,5100,99.41,3658,1000,94.5
+B3-Composite,S2: Coordinated Gulf Strike (Mar 2026),0.5637,2875,5100,99.41,3667,1000,94.6
+B1-Criticality,S2: Coordinated Gulf Strike (Mar 2026),0.4667,2380,5100,99.41,3673,1000,94.6
+KATS-Ensemble,S1: Precision Strike,0.9990,5095,5100,100.0,13447,2000,91.8
+B4-LogReg,S1: Precision Strike,0.9992,5096,5100,100.0,13470,2000,91.5
+B5-DecTree,S1: Precision Strike,0.9992,5096,5100,100.0,13469,2000,91.2
+B3-Composite,S1: Precision Strike,0.9990,5095,5100,100.0,13465,2000,91.8
+B1-Criticality,S1: Precision Strike,0.9818,5007,5100,100.0,13450,2000,91.8
+KATS-Ensemble,S3: Cascading Collapse,0.1078,550,5100,58.24,550,300,41.3
+B4-LogReg,S3: Cascading Collapse,0.1108,565,5100,58.24,565,300,41.3
+B5-DecTree,S3: Cascading Collapse,0.1127,575,5100,58.24,575,300,41.3
+B3-Composite,S3: Cascading Collapse,0.1061,541,5100,58.24,558,300,41.3
+B1-Criticality,S3: Cascading Collapse,0.0804,410,5100,58.24,566,300,41.3

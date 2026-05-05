@@ -1,0 +1,6 @@
+Method,S1: Precision Strike,S2: Coordinated Gulf Strike (Mar 2026),S3: Cascading Collapse,Mean
+KATS-Ensemble,0.9990,0.6604,0.1078,0.5891
+B4-LogReg,0.9992,0.6563,0.1108,0.5888
+B5-DecTree,0.9992,0.6541,0.1127,0.5887
+B3-Composite,0.9990,0.5637,0.1061,0.5563
+B1-Criticality,0.9818,0.4667,0.0804,0.5096
