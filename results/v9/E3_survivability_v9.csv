@@ -1,0 +1,19 @@
+Method,Scenario,Survivability,CI_lower_95,CI_upper_95,Rescued_High,Total_High,Note
+KATS-Ensemble,S1: Precision Strike (45min 40%BW),0.9334,0.9264,0.9388,5117,5482,
+KATS-Ensemble,S2: Coordinated Gulf Strike (20min 65%BW),0.7623,0.7382,0.7895,4179,5482,
+KATS-Ensemble,S3: Cascading Collapse (8min 85%BW),0.2023,0.1961,0.2103,1109,5482,Infrastructure-bound — CIs overlap across all methods
+B7-LGB,S1: Precision Strike (45min 40%BW),0.9334,0.9266,0.9388,5117,5482,
+B7-LGB,S2: Coordinated Gulf Strike (20min 65%BW),0.7705,0.7516,0.8136,4224,5482,CI overlaps KATS — not statistically significant
+B7-LGB,S3: Cascading Collapse (8min 85%BW),0.2089,0.2011,0.2163,1145,5482,Infrastructure-bound
+B3-Composite,S1: Precision Strike (45min 40%BW),0.9332,0.9261,0.9386,5116,5482,
+B3-Composite,S2: Coordinated Gulf Strike (20min 65%BW),0.7453,0.7319,0.7918,4086,5482,
+B3-Composite,S3: Cascading Collapse (8min 85%BW),0.2072,0.2012,0.2145,1136,5482,Infrastructure-bound
+B9-SLAAware,S1: Precision Strike (45min 40%BW),0.9305,0.9173,0.9365,5101,5482,
+B9-SLAAware,S2: Coordinated Gulf Strike (20min 65%BW),0.6939,0.6790,0.7502,3804,5482,
+B9-SLAAware,S3: Cascading Collapse (8min 85%BW),0.1987,0.1921,0.2051,1089,5482,Infrastructure-bound
+B8-BorgSched,S1: Precision Strike (45min 40%BW),0.8679,0.8783,0.9199,4758,5482,
+B8-BorgSched,S2: Coordinated Gulf Strike (20min 65%BW),0.6366,0.6230,0.6948,3490,5482,
+B8-BorgSched,S3: Cascading Collapse (8min 85%BW),0.1828,0.1781,0.1910,1002,5482,Infrastructure-bound
+B1-Criticality,S1: Precision Strike (45min 40%BW),0.8679,0.8783,0.9199,4758,5482,
+B1-Criticality,S2: Coordinated Gulf Strike (20min 65%BW),0.6366,0.6230,0.6948,3490,5482,
+B1-Criticality,S3: Cascading Collapse (8min 85%BW),0.1828,0.1781,0.1910,1002,5482,Infrastructure-bound

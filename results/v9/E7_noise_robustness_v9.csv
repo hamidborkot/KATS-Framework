@@ -1,0 +1,5 @@
+Noise_pct,Recall_High,Macro_F1,Kappa,Delta_Recall,Delta_F1,Note
+0,0.9869,0.9648,0.9481,0.0000,0.0000,Clean labels baseline
+5,0.9896,0.9390,0.9096,+0.0027,-0.0258,F1 starts degrading — asymmetric loss still helps Recall
+10,0.9903,0.9254,0.8902,+0.0034,-0.0394,Acceptable for real-world label uncertainty
+15,0.9917,0.9028,0.8578,+0.0048,-0.0620,Recall stable within 1.5pp — robust to noisy labels

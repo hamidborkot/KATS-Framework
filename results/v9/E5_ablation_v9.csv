@@ -1,0 +1,7 @@
+Ablation,Recall_High,Precision_High,Macro_F1,Kappa,Delta_Recall,Delta_F1,Delta_Kappa,Key_Finding
+T5.0 Full KATS-Ensemble,0.9848,0.9635,0.9647,0.9481,0.0000,0.0000,0.0000,Baseline
+T5.1 No Asymmetric Loss (alpha=1),0.9834,0.9687,0.9681,0.9531,-0.0014,+0.0034,+0.0050,Calibration trades tiny Recall for better prob scores
+T5.2 No Calibrated NB,0.9862,0.9590,0.9632,0.9459,+0.0014,-0.0015,-0.0022,NB adds calibration not raw Recall
+T5.3 Single LGB only,0.9869,0.9642,0.9648,0.9481,+0.0021,+0.0001,0.0000,Ensemble value is interpretability+SHAP not accuracy
+T5.4 Single RF only,0.9565,0.9795,0.9548,0.9330,-0.0283,-0.0099,-0.0151,RF alone misses High-priority services significantly
+T5.5 No Dependency Features,0.9800,0.8031,0.8257,0.7482,-0.0048,-0.1390,-0.1999,CRITICAL: dep features are structural backbone of KATS

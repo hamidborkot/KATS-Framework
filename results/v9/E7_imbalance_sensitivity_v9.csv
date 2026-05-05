@@ -1,0 +1,6 @@
+Config,High_pct,Medium_pct,Low_pct,Recall_High,Macro_F1,Kappa,Note
+10H-40M-50L,10,40,50,0.9026,0.9365,0.9063,Extreme imbalance — still >90% Recall
+20H-40M-40L,20,40,40,0.9551,0.9475,0.9217,
+30H-40M-30L,30,40,30,0.9731,0.9477,0.9215,
+40H-30M-30L,40,30,30,0.9841,0.9434,0.9161,Close to training distribution
+50H-30M-20L,50,30,20,0.9862,0.9353,0.9040,High-abundant setting
