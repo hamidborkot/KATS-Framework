@@ -1,7 +1,6 @@
 # KATS: Knowledge-Aware Triage System
 
 > **Knowledge-Aware Triage System for Critical Cloud Service Migration under Coordinated Cyberattack**
-> IEEE Transactions on Dependable and Secure Computing (TDSC) — Submission 2026
 
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python)](https://www.python.org/)
 [![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
@@ -290,7 +289,6 @@ If you use KATS or KATS-SYN in your research, please cite:
   title   = {KATS: Knowledge-Aware Triage System for Critical Cloud Service
              Migration under Coordinated Cyberattack},
   author  = {Tulla, Md. Hamid Borkot},
-  journal = {IEEE Transactions on Dependable and Secure Computing},
   year    = {2026},
   note    = {Under review}
 }
